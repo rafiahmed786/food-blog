@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppin,sans-serif;
+}
+.flexbox{
+    display: flex;
+    justify-content:center ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.column{
+    width: 45%;
+}
+.home .col-left{
+    padding: 30px;
+}
+.home .col-left h1{
+    font-size: 50px;
+    color: #575757;
+}
+.home .col-left p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.button{
+    display: inline-block;
+    color: white;
+    background: linear-gradient( 45deg,#FB934A, #FE4B2F);
+    text-decoration: none;
+    padding: 15px 22px;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0px 0px 11px 0px rgb(255 87 51 / 91%);
+    margin-top: 30px;
+}
+.home .col-right img{
+    width: 100%;
+}
+.about{
+    background: url(images/7.png);
+    height: 500px;
+    align-items: flex-end;
+}
+.about .column{
+    width: 33%;
+}
+.about .col-left img{
+    width: 60%;
+    position: relative;
+    bottom: 0;
+}
+.about .col-right{
+    margin-bottom: 80px;
+}
+.about .col-right h1{
+    font-size: 35px;
+    color: #575757;
+}
+.about .col-right p{
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.recipies{
+    padding: 100px;
+}
+.section-title{
+    width: 100%;
+    text-align: center;
+}
+.section-title h1{
+    color: #575757;
+    font-size: 35px;
+}
+.section-title p{
+    font-size: 16px;
+    line-height: 22px;
+    width: 600px;
+    margin: auto;
+    margin-top: 15px;
+}
+.recipies .all-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+}
+.recipies .card{
+    width: 290px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 28px -18px;
+    margin: 15px;
+}
+.recipies .card img{
+    width: 260px;
+    position: relative;
+    border-radius: 18px;
+    object-fit: cover;
+    margin: 15px;
+    height: 200px;
+}
+.recipies .card h3{
+    font-size: 23px;
+    padding: 10px 15px;
+}
+.recipies .card p{
+    font-size: 16px;
+    padding-left: 15px;
+    padding-bottom: 40px;
+    line-height: 20px;
+    padding-right: 5px;
+}
+.social{
+    padding: 100px;
+}
+.social .all-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social .card{
+    width: 200px;
+    padding: 40px;
+    box-shadow: 0px 0px 28px -18px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 25px;
+}
+.social .card h3{
+    font-size: 50px;
+}
+.social .card span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.team{
+    display: flex;
+    background: #ebf8ff;
+}
+.team .col-left{
+    padding: 80px 20px;
+    text-align: center;
+    width: 70%;
+}
+.team .col-left h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.team .col-left p{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+.team .col-left a{
+    text-decoration: none;
+    color: #FE4B2F;
+}
+.team .col-right{
+    width: 40%;
+    padding: 40px;
+}
+.team .col-right img{
+    width: 100%;
+    border-radius: 100%;
+}
+footer{
+    padding: 50px;
+    text-align: center;
+    background: #333;
+}
+footer h3{
+    color: #ddd;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+footer span{
+    font-size: 16px;
+    color: #ddd;
+}
